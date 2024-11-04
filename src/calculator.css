@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ClockCalculator Container */
+  .min-h-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Title */
+  .text-3xl {
+    font-size: 2rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  /* Clock Section */
+  .bg-gray-900 {
+    background-color: #1a1a1a;
+  }
+  
+  .text-green-500 {
+    color: #34d399;
+  }
+  
+  .text-gray-400 {
+    color: #9ca3af;
+  }
+  
+  /* Calculator Section */
+  .bg-gray-800 {
+    background-color: #2d2d2d;
+  }
+  
+  .shadow-2xl {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Display Area */
+  .bg-gray-900 {
+    background-color: #1a1a1a;
+  }
+  
+  .text-3xl {
+    font-size: 2rem;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  /* Button Styles */
+  .button {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Calculator Button Colors */
+  .bg-red-500 {
+    background-color: #ef4444;
+  }
+  
+  .bg-red-600:hover {
+    background-color: #dc2626;
+  }
+  
+  .bg-yellow-500 {
+    background-color: #fbbf24;
+  }
+  
+  .bg-yellow-600:hover {
+    background-color: #f59e0b;
+  }
+  
+  .bg-gray-600 {
+    background-color: #4b5563;
+  }
+  
+  .bg-gray-700:hover {
+    background-color: #374151;
+  }
+  
+  .bg-green-500 {
+    background-color: #10b981;
+  }
+  
+  .bg-green-600:hover {
+    background-color: #059669;
+  }
+  
+  /* Button Grid Layout */
+  .grid-cols-4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+  
+  .col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+  
